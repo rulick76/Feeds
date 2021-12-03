@@ -1,0 +1,35 @@
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 100px;
+  align-content: center;
+}
+
+
+p {
+  text-align: center;
+  font-size: 15px !important;
+  float: right;
+}
+
+button
+{
+  float: right;
+  width: 80px;
+}
+
+img
+{
+  width: 30px;
+  height: 30px;
+}
+
+input
+{
+  width: 330px;
+  float:right ;
+  border-width: 0 0 2px;
+  border-color: rgb(128, 128, 139);
+}

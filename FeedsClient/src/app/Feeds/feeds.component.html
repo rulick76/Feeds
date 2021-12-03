@@ -1,0 +1,18 @@
+
+
+
+
+    <div class="container">
+        <img src="../../assets/avatar.png">
+        <p>Share your thoughts.</p>
+        <input type="text" id="feedid" #feedInput>
+        <br>
+        <button style="float: right;width: 80px;" (click)="postfeed(feedInput.value)">Post</button>
+        <button style="float: right;width: 80px;">Cancel</button>
+    </div>
+
+    <div class="container" *ngFor="let feed of feedsList">
+      <article>
+        <p>{{feed.feed}}</p>
+      </article>
+    </div>
