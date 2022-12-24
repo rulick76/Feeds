@@ -5,7 +5,7 @@
         <h4>Movies</h4>
       </div>
       <div class="movies-thumbnail">
-        <div class="movie" *ngFor="let movie of movies }">
+        <div class="movie" *ngFor="let movie of movies">
           <div class="cover" (click)="goToMovie('trending', movie.id)">
             <img [src]="movie.cover" alt="" />
           </div>

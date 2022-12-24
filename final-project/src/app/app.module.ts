@@ -7,7 +7,6 @@ import { MovieComponent } from './movie/movie.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FeatureModule } from './feature/feature.module';
-import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    FeatureModule,
-    NgxPaginationModule
+    FeatureModule
   ],
   providers: [],
   bootstrap: [AppComponent]
